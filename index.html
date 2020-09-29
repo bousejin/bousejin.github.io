@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179230712-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-179230712-1');
+    </script>
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Nima Ghanbari Bousejin</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div id="dhead" class="container">
+        <div class="row">
+          <div id="dpic">
+            <img src="assets/me_ori.jpg" class="ppic" />
+          </div>
+          <div id="ddesc">
+            <h1>Nima Ghanbari Bousejin</h1>
+            <h2>I like to develop and deploy AI systems to improve human life.</h2>
+            <div id="dico">
+              <a href="https://twitter.com/bousejin"><img src="assets/ctwitter.svg" class="iico" /></a>
+              <a href="https://github.com/bousejin"><img src="assets/cgithub.svg" class="iico"/></a>
+              <!-- <a href="https://bousejin.github.io"><img src="assets/crss.svg" class="iico" /></a> -->
+              <!-- <a href="https://medium.com/@bousejin"><img src="assets/crss.svg" class="iico" /></a> -->
+              <img src="assets/cemail.svg" style="cursor: pointer;" class="iico" id="iemail" title="click to reveal" />
+            </div>
+            <div id="demail"></div> <!-- will reveal email -->
+          </div>
+        </div>
+    </div>
+  
+    <hr>
+
+    <div id="history" class="container">
+        <div class="entry row">
+            <div class="timespan">
+              2018
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+              <img src="assets/uot_logo.png" />
+            </div>
+            <div class="desc">
+              I am a research scientist in network science at the <a href="https://fnst.ut.ac.ir/en/mainpage">University of Tehran</a>, where I work on learning node representations within graph-structured data in a semi-supervised and an unsupervised manner.
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+              2018
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+              <img src="assets/bayan_logo.png" />
+            </div>
+            <div class="desc">
+              I was a machine learning engineer at <a href="http://bayan.ir">Bayan</a>, where I developed front‐end (React) and back‐end (Flask) applications to deploy a Crowd Counting model (PyTorch) to production.
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+              2017-2018
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+              <!-- <img src="assets/roshd_logo.png" /> -->
+            </div>
+            <div class="desc">
+              I was a machine learning engineer at Roshd, where I worked on computer vision algorithms for internal face tracking and face recognition using bounding box neural nets.
+            </div>
+        </div>
+
+        <div class="entry row">
+            <div class="timespan">
+              2011-2014
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+              <img src="assets/shahed_logo.png" style="max-width: 32px;"/>
+            </div>
+            <div class="desc">
+              MSc at Shahed University where I worked with <a href="http://shahed.ac.ir/hasanzadeh/EN/Lists/About%20Me/DispForm.aspx?ID=2">Maryam Hasanzadeh</a> on creating operational profiles of web servers using graph algorithms.
+            </div>
+        </div>
+    
+        <div class="entry row">
+            <div class="timespan">
+              2005-2010
+            </div>
+            <div class="ico">
+              <div class="entry-dot"></div>
+              <img src="assets/qiau_logo.png" style="max-width: 32px;"/>
+            </div>
+            <div class="desc">
+              BSc at Qazvin Islamic Azad University where I worked with <a href="https://staff.qut.edu.au/staff/behrang.assemi">Behrang Assemi</a> where I worked with <a href="http://shahed.ac.ir/hasanzadeh/EN/Lists/About%20Me/DispForm.aspx?ID=2"></a> on creating a WYSIWYG template generator for blogger.
+            </div>
+        </div>
+    
+    </div>
+
+    <div class="container">
+
+        <div class="ctitle">publications</div>
+
+        <div class="pub">
+            <div class="pub-title">Stacked Auto-encoder for Graph Clustering</div>
+            <div class="pub-venue">Under review at Information Sciences</div>
+            <div class="pub-authors">S. Molaei*, N. Ghanbari Bousejin*, H. Zare, M. Jalili</div>
+        </div>
+
+      <div class="pub">
+        <div class="pub-title">Learning Graph Representations with Maximal Cliques</div>
+        <div class="pub-venue">Under review at IEEE Transactions on Neural Networks and Learning Systems</div>
+        <div class="pub-authors">S. Molaei*, N. Ghanbari Bousejin*, H. Zare, M. Jalili</div>
+      </div>
+
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div class="container">
+        <div class="ref">
+            HTML and CSS by <a href="https://karpathy.ai/">Andrej Karpathy</a>
+        </div>
+    </div>
+
+    <!-- attempt hiding from spambots :p -->
+    <script type="text/javascript">
+      var e_is_shown = false;
+      document.getElementById('iemail').addEventListener("click", function(){
+        let demail = document.getElementById('demail');
+        demail.innerHTML = 'bousejin' + ' _at_ ' + 'gmail' + '.com';
+        demail.style.opacity = e_is_shown ? 0 : 1;
+        e_is_shown = !e_is_shown;
+      })
+    </script>
+  </body>
+</html>
