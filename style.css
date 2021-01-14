@@ -230,6 +230,10 @@ hr {
     display: block;
     color: #900;
 }
+.pub-star {
+    display: block;
+    color: #900;
+}
 .tul {
     text-align: center;
     padding: 0;
