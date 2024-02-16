@@ -34,7 +34,7 @@ body {
     text-align: right;
 }
 #ddesc {
-    padding-top: 80px;
+    padding-top: 40px;
     padding-left: 20px;
     grid-column: span 6;
 }
@@ -69,9 +69,9 @@ h2 {
     }
 }
 #dpic img {
-    width: 300px;
-    height: 300px;
-    border-radius: 150px;
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
 }
 .iico {
     width: 40px;
@@ -230,10 +230,6 @@ hr {
     display: block;
     color: #900;
 }
-.pub-star {
-    display: block;
-    color: #900;
-}
 .tul {
     text-align: center;
     padding: 0;
@@ -245,6 +241,10 @@ hr {
 }
 .tilb {
     border-right: 1px solid #ccc;
+}
+.nodot {
+    list-style-type: none;
+    padding-left: 0;
 }
 .ref {
     text-align: center;
